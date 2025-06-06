@@ -1,12 +1,34 @@
-# React + Vite
+# Ajeet Maurya Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built with **React**, **Vite**, and **Tailwind CSS**. It showcases my projects, skills, and contact information.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Live Demo on GitHub Pages](https://official-ajeet.github.io/my-portfolio/)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive and modern design using Tailwind CSS
+- Sections for About, Projects, Skills, and Contact
+- Projects include GitHub and live demo links
+- Smooth navigation and clean layout
+
+## Tech Stack
+
+- React
+- Vite (build tool)
+- Tailwind CSS (utility-first CSS framework)
+- React Icons
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/official-ajeet/my-portfolio.git
