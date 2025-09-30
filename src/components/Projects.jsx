@@ -4,6 +4,14 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 const Projects = () => {
   const projects = [
     {
+      title: "Feel and Write",
+      description:
+        "feelandwrite is a creative writing and journaling web app where users can express their thoughts, share emotions, and overcome writer’s block with prompts and inspirations — a personal space to write, feel and remember",
+      linkedinPost:
+        "https://www.linkedin.com/posts/ajeet15_feelandwrite-writingcommunity-secureplatform-activity-7377246810701971456-MhHn?utm_source=share&utm_medium=member_desktop&rcm=ACoAADYJacEBukfQ7HRj9U8ye1efnca3RyLCTeM",
+      demo: "https://www.feelandwrite.com/",
+    },
+    {
       title: "Secure Note Taking App",
       description:
         "Spring Boot-based app with encrypted note storage, password-protected notes, and email verification.",
@@ -42,8 +50,8 @@ const Projects = () => {
       title: "Tic Tac Toe",
       description:
         "Classic Tic Tac Toe game built using React with interactive UI and state management.",
-        github: "https://github.com/official-ajeet/tic-tac-toe",
-        demo: "https://official-ajeet.github.io/tic-tac-toe/",
+      github: "https://github.com/official-ajeet/tic-tac-toe",
+      demo: "https://official-ajeet.github.io/tic-tac-toe/",
       linkedinPost:
         "https://www.linkedin.com/posts/ajeet15_webdevelopment-javascript-html-activity-7185537511601946625-U1lo?utm_source=share&utm_medium=member_desktop&rcm=ACoAADYJacEBukfQ7HRj9U8ye1efnca3RyLCTeM",
     },
@@ -83,14 +91,16 @@ const Projects = () => {
               <p className="text-sm mb-6">{description}</p>
             </div>
             <div className="flex space-x-4 mt-auto">
-              <a
-                href={github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition"
-              >
-                <FaGithub /> GitHub
-              </a>
+              {github && (
+                <a
+                  href={github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition"
+                >
+                  <FaGithub /> GitHub
+                </a>
+              )}
 
               {demo && (
                 <a
